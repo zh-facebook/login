@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login_base">
+    <form class="login">
+      <h1>Login</h1>
+      <div class="name-and-passwd">
+        <div class="name">
+          <label for="name" style="flex-shrink: 0">姓名：</label>
+          <input type="text" id="name" name="name" placeholder=" name">
+        </div>
+        <div class="passwd">
+          <label for="passwd" style="flex-shrink: 0">密碼：</label>
+          <input type="password" id="passwd" name="passwd" placeholder=" password" style="flex-shrink: 3">
+          <button type="button" id="showpasswd">🫣</button>
+        </div>
+        <div class="CAPTCHA">
+          <label for="CAPTCHA_input" style="flex-shrink: 0">驗證碼：</label>
+          <input type="text" id="CAPTCHA_input" name="CAPTCHA_input" placeholder=" 驗證碼">
+          <canvas id="captchaCanvas" onclick="generateCaptcha()"></canvas>
+        </div>
+      </div>
+
+      <div class="submit-and-clean">
+        <button type="button" class="submit">Log in</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

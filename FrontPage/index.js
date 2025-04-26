@@ -25,7 +25,7 @@ function login() {
     }
 
     if (vaild) {
-        window.location.href = "";       //這裡""內要填入欲跳轉連結
+        window.location.href = "https://zh-facebook.github.io/login/BackPage/introduction.html";    
     } else {
         or.classList.add("hide");
         create.classList.add("hide");
@@ -33,5 +33,5 @@ function login() {
 }
 
 function create() {
-    window.location.href = "";       //這裡""內要填入欲跳轉連結
+    window.location.href = "https://zh-facebook.github.io/login/BackPage/introduction.html";    
 }

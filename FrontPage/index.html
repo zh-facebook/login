@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=decive-width, initial-scale=1.0">
+    <title>登入 Facebook</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="company">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg">
+        </div>
+        
+        <div class="input_area">
+            <div class="area_top">
+                <div class="area_top_word">登入 Facebook</div>
+            </div>
+
+            <div class="input_info"> 
+                <input type="text" class="input_acc" 
+                    name="email" id="email" placeholder="電子郵件地址或手機號碼" >
+                <div id="email_error" class="email_error">
+                    你輸入的電子郵件地址或手機號碼並未與帳號連結。<b>尋找你的帳號並登入。</b>
+                </div>
+            
+                <input type="password" class="input_pw" 
+                    name="pass" id="passwd" placeholder="密碼">
+                <div id="password_error" class="password_error">
+                    你輸入的密碼不正確。<b>忘記密碼？</b>
+                </div>
+
+                <button class="login_submit" id="loginbutton" 
+                    name="login" onclick="login()">登入</button>
+            </div>
+
+            <div class="forget_area">
+                <a class="forget" href="">忘記帳號？</a>
+                <!-- href="" 裡要填入欲跳轉連結 -->
+            </div>
+
+            
+            <div class="or_line" id="or_line">
+                或
+            </div>
+
+            <button id="createbutton" onclick="create()">建立新帳號</button>
+            
+        </div>
+
+    </div>
+</body>
+</html>

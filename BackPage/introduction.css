@@ -1,0 +1,22 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card, .content {
+    background-color: #e7e7e794;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: large;
+}
+
+.hide {
+    display: none;
+}

@@ -4,34 +4,35 @@ function login() {
     const emailError = document.getElementById("email_error");
     const passwdError = document.getElementById("password_error");
     const or = document.getElementById("or_line");
-    const create = document.getElementById("createbutton");
-
-    let vaild = true;
+    const createBtn = document.getElementById("createbutton"); 
+    let valid = true; 
 
     if (email.value.trim() === "") {
         email.classList.add("input_error");
         emailError.classList.add("show");
-        vaild = false;
+        valid = false;
     } else {
+        email.classList.remove("input_error");
         emailError.classList.remove("show");
     }
 
-    if (email.value.trim() !== "" && passwd.value.trim() === "") {
+    if (passwd.value.trim() === "") {
         passwd.classList.add("input_error");
         passwdError.classList.add("show");
-        vaild = false;
+        valid = false;
     } else {
-        passwd.classList.remove("show");
+        passwd.classList.remove("input_error");
+        passwdError.classList.remove("show");
     }
 
-    if (vaild) {
+    if (valid) {
         window.location.href = "https://zh-facebook.github.io/login/BackPage/introduction.html";    
     } else {
         or.classList.add("hide");
-        create.classList.add("hide");
+        createBtn.classList.add("hide");
     }
 }
 
-function create() {
+function createAccount() { 
     window.location.href = "https://zh-facebook.github.io/login/BackPage/introduction.html";    
 }

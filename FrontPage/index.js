@@ -16,7 +16,7 @@ function login() {
         emailError.classList.remove("show");
     }
 
-    if (passwd.value.trim() === "") {
+    if (email.value.trim() !== "" && passwd.value.trim() === "") {
         passwd.classList.add("input_error");
         passwdError.classList.add("show");
         valid = false;

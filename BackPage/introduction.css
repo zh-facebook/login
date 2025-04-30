@@ -1,16 +1,19 @@
 body {
-    /* font-family: 'Comic Sans MS', cursive, sans-serif; */
-    /* font-family: "Noto Sans TC", "微軟正黑體", "Segoe UI", Arial, sans-serif; */
-    font-family: cursive;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* font-family: cursive; */
+
+    /* (gpt給的)font-family: "Noto Sans TC", "微軟正黑體", "Segoe UI", Arial, sans-serif; */
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-:lang(en){
+/*字體還不確定怎麼改，有點亂，以下是中英文分開設定*/
+/* :lang(en){
     font-family: sans-serif;
-}
+} */
+
 .content {
     background-color: #e7e7e794;
     width: 80%;/*改成80%，因為不想讓按扭上的字換行*/

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     /* font-family: cursive; */
 
     /* (gpt給的)font-family: "Noto Sans TC", "微軟正黑體", "Segoe UI", Arial, sans-serif; */
@@ -16,12 +16,12 @@ body {
 
 .content {
     background-color: #e7e7e794;
-    width: 80%;/*改成80%，因為不想讓按扭上的字換行*/
+    width: 80%;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    text-align: left; /*先改left，說不定center更好*/
+    text-align: left;
     font-size: large;
 }
 
@@ -68,8 +68,6 @@ button{
     justify-content: center; 
     align-items: center;    
 }
-/*為什麼我想讓button在畫面中水平置中需要再建一個.button_position
-    不能在button{}中加入justify-content就好*/
 
 #answer{
     margin-top: 20px;

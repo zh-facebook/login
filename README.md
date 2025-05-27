@@ -4,7 +4,7 @@
 **本專案沒有存取任何個人資料，也沒有任何非法意圖**
 ### FrontPage
 * 復刻 FB 登入頁面
-* [login](https://zh-facebook.github.io/login/FrontPage/)
+* [login](https://proproproproject.github.io/login/FrontPage/)
 ### BackPage
 * 釣魚網站科普
-* [Phishing](https://zh-facebook.github.io/login/BackPage/introduction.html)
+* [Phishing](https://proproproproject.github.io/login/BackPage/introduction.html)
